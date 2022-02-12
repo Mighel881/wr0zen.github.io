@@ -105,7 +105,7 @@ font-family:sans-serif;font-size:28px;text-align:left;color:white;z-index:901;te
 }
 *:focus{outline:0;
 }
-extra{position:absolute;Right:10px;top:3px;font-size:22%;margin-top:37%;font-family:sans-serif;
+extra{position:absolute;Right:10px;top:6px;font-size:22%;margin-top:37%;font-family:sans-serif;
 }
 img{width:100%;-webkit-filter: drop-shadow(-3px 3px 5px black);
 }
