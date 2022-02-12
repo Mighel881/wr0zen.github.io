@@ -13,13 +13,23 @@ function load_payload() {
 }
 
 function payload_finished() {
-  document.write("<h1 style='color:black;text-align:center;font-size: 45px;'>Restore Loaded</h1>");
+	document.open
+	document.write("<h1 style='color:white;position:fixed;left:550px;right:0px;top:250px;bottom:0px;font-family:century gothic;font-size: 45px;'>Restore Loaded!</h1>");
+	document.body.style.backgroundImage = "url('BG.jpg')";
+	document.body.style.backgroundSize = "cover";
+	document.body.style.backgroundPosition = "center";
+	document.body.style.backgroundRepeat = "no-repeat";
+	document.close
   //read_ptr_at(0);
 }
 
 function check_jb_finished() {
   if (main_ret == 179 || main_ret == 0) {
-    document.write("<h1 style='color:black;text-align:center;font-size: 45px;'>Jailbreak Success! Loading Restore, please wait...</h1>");
+    document.open
+    document.write("<h1 style='color:white;position:fixed;left:150px;right:0px;top:250px;bottom:0px;font-family:century gothic;font-size: 45px;'>Jailbreak Success! Loading Restore, please wait...</h1>");
+	document.body.style.backgroundImage = "url('BG.jpg')";
+	document.body.style.backgroundSize = "cover";
+	document.close
     //read_ptr_at(0);
     setTimeout(function(){ load_payload() }, 1500);
   } else {
