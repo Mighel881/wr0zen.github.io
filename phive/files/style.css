@@ -65,16 +65,16 @@ text-shadow: -2px 2px #274478;
 width:900px;height:300px;color:white;
 }
 #InfoTitle{
-position:relative;top:0;left:0;
+position:relative;top:-55;left:0;
 height:58px;color:white;font-size:42px;font-weight:bolder;overflow:hidden;white-space:nowrap;
 }
 #InfoVerAuth{
-position:relative;top:0;left:0;
+position:relative;top:-55;left:0;
 height:40px;color:white;font-size:24px;font-weight:bold;overflow:hidden;white-space:nowrap;
 }
 #InfoDesc{
-position:relative;top:0;left:0;
-font-size:24px;overflow:hidden;
+position:relative;top:-55;left:0;
+font-size:19px;overflow:hidden;
 }
 .InfoIcon{transition:all 200ms;
 position:relative;top:6px;display:inline-block;background-size:100%;margin:0 10px 0 10px;
